@@ -35,3 +35,12 @@ It helps users prepare for interviews, generate resumes & cover letters, and rec
 Currently in development — building core features step by step.
 
 ---
+
+## Acknowledgment
+
+This project was built by following a public YouTube tutorial by [RoadsideCoder](https://www.youtube.com/@RoadsideCoder) - [video](https://www.youtube.com/watch?v=UbXpRv5ApKA).
+
+The implementation is recreated step-by-step for learning purposes.
+All core project structure and concepts are credited to the original creator.
+
+---
