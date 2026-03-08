@@ -32,3 +32,8 @@ export type HowItWorksStep = {
     description: string;
     icon: React.ReactNode; // Changed from LucideIcon to React.ReactNode to allow for JSX elements
 }
+
+export type StatsItem = {
+    value: string;
+    description: string;
+}
