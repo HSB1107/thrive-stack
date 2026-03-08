@@ -2,6 +2,7 @@ import FAQSection from "@/components/faq-section";
 import FeaturesSection from "@/components/features-section";
 import HeroSection from "@/components/hero-section";
 import HowItWorksSection from "@/components/how-it-works-section";
+import SeatSection from "@/components/seat-section";
 import StatisticsSection from "@/components/statistics-section";
 import UsersFeedbackSection from "@/components/users-feedback-section";
 
@@ -24,6 +25,8 @@ export default function Home() {
       <UsersFeedbackSection />
 
       <FAQSection />
+
+      <SeatSection />
     </div>
   );
 }
