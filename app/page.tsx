@@ -1,5 +1,6 @@
 import FeaturesSection from "@/components/features-section";
 import HeroSection from "@/components/hero-section";
+import HowItWorksSection from "@/components/how-it-works-section";
 import StatisticsSection from "@/components/statistics-section";
 
 export default function Home() {
@@ -15,6 +16,8 @@ export default function Home() {
       <FeaturesSection />
 
       <StatisticsSection  />
+
+      <HowItWorksSection />
     </div>
   );
 }
