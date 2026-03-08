@@ -1,5 +1,4 @@
-"use client";
-
+import FeaturesSection from "@/components/features-section";
 import HeroSection from "@/components/hero-section";
 
 export default function Home() {
@@ -11,6 +10,8 @@ export default function Home() {
        * This is because we want the grid background to be behind the content and not affect the layout of the content. If we wrap the content inside grid-background, it will affect the layout and make it look weird.
        */}
       <HeroSection />
+
+      <FeaturesSection />
     </div>
   );
 }
