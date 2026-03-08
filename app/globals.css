@@ -165,3 +165,22 @@
   height: 100%;
   background: radial-gradient(circle, transparent, rgba(0, 0, 0, 0.9))
 }
+
+.hero-image-wrapper{
+  /* Add the perspective, which will create the 3D effect by  */
+  /* adding perspective gives the 3d effect to children, not the element / parent itself */
+  perspective: 1000px;
+}
+
+.hero-image{
+  /* roatateX implies the rotation around the X-axis, so we can expect the image to be tilted about a horizontal line as the axis of rotation */
+  transform: rotateX(15deg) scale(1);
+  transition: transform 0.5s ease-out;
+  /* will-change property should be used sparingly as it's resource intensive */
+  will-change: transform;
+}
+
+.hero-image.scrolled {
+  transform: rotate(0deg) scale(1) translateY(40px);
+}
+
