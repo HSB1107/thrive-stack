@@ -1,4 +1,3 @@
-import { Card, CardContent } from "@/components/ui/card";
 import { howItWorksSteps } from "@/data/how-it-works";
 
 const HowItWorksSection = () => {
