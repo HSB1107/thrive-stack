@@ -38,7 +38,8 @@ Currently in development — building core features step by step.
 
 ## Acknowledgment
 
-This project was built by following a public YouTube tutorial by [RoadsideCoder](https://www.youtube.com/@RoadsideCoder) - [video](https://www.youtube.com/watch?v=UbXpRv5ApKA).
+This project was built by following [RoadsideCoder](https://www.youtube.com/@RoadsideCoder)’s tutorial: [Video Link](https://www.youtube.com/watch?v=UbXpRv5ApKA).
+Project code is available on [GitHub](https://github.com/piyush-eon/ai-career-coach).
 
 The implementation is recreated step-by-step for learning purposes.
 All core project structure and concepts are credited to the original creator.
